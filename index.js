@@ -9,7 +9,7 @@ const { executionAsyncResource } = require('async_hooks');
 client.commands = new Discord.Collection()
 
 client.on('ready', () => {
-client.user.setActivity("Discordia", {type: 'PLAYING' })
+client.user.setActivity("TheForbiddenForest", {type: 'WATCHING' })
 })
 
 require("dotenv").config();
