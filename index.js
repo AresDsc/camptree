@@ -26,7 +26,7 @@ client.on("guildMemberAdd", (member) => {
     const embed  = new Discord.MessageEmbed()
     .setAuthor(member.user.tag + " est apparu ici")
     .setColor('#5865f2')
-    .setDescription(`> <a:welcome:986611729393930241> Souhaitez lui la bienvenue dans **Discordia**`);
+    .setDescription(`> <a:welcome:986611729393930241> Souhaitez lui la bienvenue dans **TheForbiddenForest**`);
 
 channel.send({embeds: [embed] })
     }
