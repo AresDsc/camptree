@@ -9,7 +9,7 @@ const { executionAsyncResource } = require('async_hooks');
 client.commands = new Discord.Collection()
 
 client.on('ready', () => {
-client.user.setActivity("TheForbiddenForest", {type: 'WATCHING' })
+client.user.setActivity("les arrivants", {type: 'WATCHING' })
 })
 
 require("dotenv").config();
@@ -26,7 +26,7 @@ client.on("guildMemberAdd", (member) => {
     const embed  = new Discord.MessageEmbed()
     .setAuthor(member.user.tag + " est apparu ici")
     .setColor('#5865f2')
-    .setDescription(`> <a:welcome:986611729393930241> Souhaitez lui la bienvenue dans **TheForbiddenForest**`);
+    .setDescription(`> <a:welcome:986611729393930241> Souhaitez lui la bienvenue dans **Among Trees**`);
 
 channel.send({embeds: [embed] })
     }
