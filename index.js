@@ -25,8 +25,8 @@ client.on("guildMemberAdd", (member) => {
         
     const embed  = new Discord.MessageEmbed()
     .setAuthor(member.user.tag + " est apparu ici")
-    .setColor('#5865f2')
-    .setDescription(`> <a:welcome:986611729393930241> Souhaitez lui la bienvenue dans **Among Trees**`);
+    .setColor('#00cd0e')
+    .setDescription(`> <a:welcome:986611729393930241> Souhaitez lui la bienvenue dans **Among Trees** !`);
 
 channel.send({embeds: [embed] })
     }
